@@ -7,7 +7,7 @@ a{
     text-decoration: none;
     color:#fff;
 }
-a,div,p{ 
+a,div,p h1,h2{ 
     font-family: 'Raleway', sans-serif;
 
 }
@@ -70,4 +70,113 @@ padding: 2rem;
     align-items: center;
     text-align: center;
 }
-
+.ana-baslik{
+    text-align: center
+}
+.ana-baslik h2{
+    margin-top: 2rem;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: 700;
+    top:5%;
+    left:50%;
+    transition: all ease-in-out;
+    transition: 2s;
+    transform: translate(-50%,-5%);
+    }
+.ana-baslik h2 span{
+color: #690669;
+}
+.about-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 2rem;
+    padding-top: 3.5rem;
+    padding-bottom: 5rem;
+    padding-right: 1rem;
+  }
+  .about-container .right-about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+  }
+  .about-container .right-about .about-item {
+    border: 1px solid #AA96DA;
+    border-radius: 5px;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.1);
+  }
+  .about-container .right-about .about-item:hover {
+    cursor: default;
+    transform: translateY(-5px);
+    border: 1px solid #690669;
+    box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.32);
+  }
+  .about-container .right-about .about-item .abt-text {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .about-container .right-about .about-item .abt-text .large-text {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #690669;
+  }
+  .about-container .right-about .about-item .abt-text .small-text {
+    padding-left: 3rem;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: black;
+    letter-spacing: 2px;
+  }
+  .about-container .right-about .about-item .abt-text .small-text::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 15px;
+    width: 2rem;
+    height: 2px;
+    background-color:#AA96DA;
+  }
+  .about-container .left-about {
+    padding-right: 5rem;
+  }
+  .about-container .left-about p {
+    line-height: 2rem;
+    padding: 1rem;
+    color: black;
+  }
+  .about-container .left-about h4 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding-left: 1rem;
+  }
+  .about-container .left-about img{
+    float:left;
+    padding:0 10px 10px 0;
+  }
+  .about-container .left-about h4 span{
+    color: #690669;
+  }
+  #hakkimda .container div img{
+      float: left;
+      padding:0 10px 10px 0;
+  }
+  #hakkimda .container
+  {
+      margin-bottom: 2rem;
+  }
+  
+  #hakkimda button{
+    border-radius: 4px;
+    color: #690669;
+    border-color: #690669;
+    display: block; margin: auto;
+    margin-bottom: 1.75rem;
+}
+#hakkimda button:hover{
+        background-color: #690669;
+        color: white;
+}
