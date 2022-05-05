@@ -1,0 +1,18 @@
+#anasayfa .name2{
+    margin-top: 1rem;
+    margin-bottom: 0.75rem;
+
+}
+.about-container{
+    grid-template-columns: repeat(1, 1fr);
+}
+.right-about{
+    grid-template-columns: repeat(1, 1fr);
+}
+.about-container .left-about{
+    padding-right: 0rem;
+}
+
+.table-primary{
+    width: 300px;
+}

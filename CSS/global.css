@@ -1,0 +1,79 @@
+/* Text*/
+.text-center {
+    text-align: center;
+}
+.italic {
+    font-style: italic;
+}
+.bold{
+    font-weight: 1000;
+}
+.semi-bold{
+    font-weight: 700;
+}
+.light-text{
+    font-weight: 500;
+}
+.buyuk-baslik
+{
+    font-size: 3.5rem;
+}
+
+.baslangic-small
+{
+    font-size: 1.25rem;
+}
+.baslangic-medium{
+    font-size:1.5rem;
+}
+.baslangic-big {
+    font-size:2rem;
+}
+/* Colors */
+.ap-dark-purple{
+    background: #690669;
+}
+.ap-light-purple {
+    background:#AA96DA ;
+}
+.ap-knicks-blue{
+    background:#006ab6cf;
+}
+.ap-mor{
+    background: #aa96da37;
+}
+.ap-beyaz{
+    background: white;
+}
+.border-3{
+    border: 3px,solid, black;
+}
+.yr-dark-purple
+{
+    color: #690669;
+}
+.ap-knicks-orange
+{
+    background: #F58426
+}
+.ap-img-ny{
+    background-image: url(/images/sss-3.jpg);
+    width: 100%;
+    background-position: center;
+}
+.ap-liberty{
+    background: none;
+}
+.knicks-blue{
+    color:#006ab6cf;
+}
+
+/* Container */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.table-primary{
+    display: block;
+    margin: auto;
+}

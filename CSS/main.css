@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+a,div,p h1,h2{ 
+    font-family: 'Raleway', sans-serif;
+
+}
+#deneme{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li a:hover{
+   background: #AA96DA;
+   border-radius: 4px;
+}
+
+#anasayfa{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 2rem;
+}
+#anasayfa img{
+    max-width: 100%;
+    margin-top: 2rem;
+    border-radius: 100%;
+    margin-bottom: 0.5rem;
+    display: block; margin: auto;
+
+}
+#anasayfa .name h2{
+    margin-bottom: 0.75rem;
+
+}
+#anasayfa .name p{
+    opacity: 0.7;
+    font-style: italic;
+}
+#anasayfa a{
+    color: black;
+}
+#anasayfa i{
+    margin-bottom: 1rem;
+}
+#anasayfa button{
+    border-radius: 4px;
+    color: #690669;
+    border-color: #690669;
+    display: block; margin: auto;
+}
+#anasayfa button:hover{
+        background-color: #690669;
+        color: white;
+}
+#anasayfa .info{
+    letter-spacing: 0.09rem;
+}
+.hiza{
+    width: 300px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.ana-baslik{
+    text-align: center
+}
+.ana-baslik h2{
+    margin-top: 2rem;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: 700;
+    }
+.ana-baslik h2 span{
+color: #690669;
+}
+.about-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 2rem;
+    padding-top: 3.5rem;
+    padding-bottom: 5rem;
+    padding-right: 1rem;
+  }
+  .right-about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 2rem;
+    padding-top: 3.5rem;
+    padding-bottom: 5rem;
+    padding-right: 1rem;
+    grid-gap: 2rem;
+  }
+  .right-about .about-item {
+    border: 1px solid #AA96DA;
+    border-radius: 5px;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.1);
+  }
+  .right-about .about-item:hover {
+    cursor: default;
+    transform: translateY(-5px);
+    border: 1px solid #690669;
+    box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.32);
+  }
+  .right-about .about-item .abt-text {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .right-about .about-item .abt-text .large-text {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #690669;
+  }
+  .right-about .about-item .abt-text .small-text {
+    padding-left: 3rem;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: black;
+    letter-spacing: 2px;
+  }
+  .right-about .about-item .abt-text .small-text::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 15px;
+    width: 2rem;
+    height: 2px;
+    background-color:#AA96DA;
+  }
+  .about-container .left-about {
+    padding-right: 5rem;
+  }
+  .about-container .left-about p {
+    line-height: 2rem;
+    padding: 1rem;
+    color: black;
+  }
+  .about-container .left-about h4 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding-left: 1rem;
+  }
+  .about-container .left-about img{
+    float:left;
+    padding:0 10px 10px 0;
+  }
+  .about-container .left-about h4 span{
+    color: #690669;
+  }
+  #hakkimda .container div img{
+      float: left;
+      padding:0 10px 10px 0;
+  }
+  #hakkimda .container
+  {
+      margin-bottom: 2rem;
+  }
+  
+  #hakkimda button{
+    border-radius: 4px;
+    color: #690669;
+    border-color: #690669;
+    display: block; margin: auto;
+    margin-bottom: 1.75rem;
+}
+#hakkimda button:hover{
+        background-color: #690669;
+        color: white;
+}
+#hakkimda .container{
+  margin-top: 3rem;
+}
+#cv .right-about{
+  grid-template-columns: repeat(1, 1fr);
+}
+#userTable{
+  justify-content: center;
+  align-items: center;
+  max-width: 70%;
+  margin: auto;
+}
+.ap-img-basket
+{
+  background: url(/images/curry.jpg);
+  margin-bottom: 1rem;
+}
+.special-card {
+  
+     background: none;  
+     color: white;
+     font-weight: 1000;
+  }
+.px-yuzde-yetmis{
+  max-width: 70%;
+  margin: auto;
+
+}
+.ap-img-slide{
+  background: url(/images/background-black-white-blurred-background-closeup.jpg);
+}
+.ap-img-msg{
+  background: url(/images/New-York-Knicks-MSG-1200x650.jpg);
+  background-position:center;
+}
+.ap-img-msg h1{
+  font-size: 5rem;
+  font-weight: 600;
+}
+.card-body
+{
+  background: #F58426;
+}
+.ap-img-msg li a:hover{
+  background: #F58426;
+  border-radius: 4px;
+}
+.tarih .sol-üst-resim{
+    float:left;
+    padding:0 10px 10px 0;
+  
+}
+.tarih .sag-alt-resim{
+  float: right;
+  padding: 0 10px 10px 0;
+}
+.paragraf{
+  letter-spacing: 0.05rem;
+  color: white;
+  font-size: 1.25rem;
+  font-style:italic;
+}
+.wiki-table-baslik{
+  text-align: center;
+  color: white;
+  background: #006ab6cf;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.pranga{
+  max-width: 100%;
+}
+.tarih{
+  margin-left: 1.5rem;
+  display: block;
+}
+.wiki-table a{
+  color: #F58426;
+  font-weight: 600;
+}
+.carousel a{
+  color: #F58426;
+  font-weight: 600;
+}
+.carousel-control-next{
+  background: none;
+  border: none;
+}
+.carousel-control-prev{
+  background: none;
+  border: none;
+}
+/*  */
