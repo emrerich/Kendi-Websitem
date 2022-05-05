@@ -14,5 +14,15 @@
 }
 
 .table-primary{
-    width: 300px;
+    max-width: 500px;
 }
+.ny-baslik{
+    font-size: 4rem;
+    
+}
+.wiki-table{
+    margin-left: 2.14rem;
+  }
+  .sutun {
+    flex: 100%;
+    max-width: 100%;    margin: 0    ;}
