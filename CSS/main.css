@@ -209,6 +209,13 @@ color: #690669;
 }
 .ap-img-slide{
   background: url(/images/background-black-white-blurred-background-closeup.jpg);
+  background-size: 100%;
+  background-position: center;
+}
+.ap-img-lighthouse{
+  background: url(/images/lighthouse.jpg);
+  background-size: 100%;
+  background-position: center;
 }
 .ap-img-msg{
   background: url(/images/New-York-Knicks-MSG-1200x650.jpg);
@@ -413,4 +420,18 @@ img.hover-shadow {
 
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#sinema-nav li a:hover{
+  background: #e60c0c;
+  border-radius: 4px;
+}
+#sinema .sol-üst-resim{
+  float:left;
+  padding:0 10px 10px 0;
+
+}
+#spor .sol-üst-resim{
+  float:left;
+  padding:0 10px 10px 0;
+
 }

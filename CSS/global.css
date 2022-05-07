@@ -18,6 +18,9 @@
 {
     font-size: 3.5rem;
 }
+.ara-baslik{
+    font-size: 2.75rem;
+}
 
 .baslangic-small
 {
@@ -32,6 +35,9 @@
 /* Colors */
 .ap-dark-purple{
     background: #690669;
+}
+.ap-dark-purple-sy{
+    background: #690669a3;
 }
 .ap-light-purple {
     background:#AA96DA ;
@@ -48,6 +54,9 @@
 .border-3{
     border: 3px,solid, black;
 }
+.ap-siyah{
+    background: rgba(0, 0, 0, 0.951);
+}
 .yr-dark-purple
 {
     color: #690669;
@@ -55,6 +64,12 @@
 .ap-knicks-orange
 {
     background: #F58426
+}
+.ap-red{
+    background:rgb(132, 5, 5)
+}
+.ap-yesil{
+    background: #3e5a2c;
 }
 .ap-img-ny{
     background-image: url(/images/sss-3.jpg);
@@ -64,6 +79,46 @@
 .ap-liberty{
     background: none;
 }
+.ap-img-cinema{
+    background: url(/images/auditorium-audience-red-darkness-theatre-stage-1394394-pxhere.com.jpg);
+    width: 100%;
+    background-position: center;
+}
+.ap-lala{
+    background: url(/images/1232005.jpg);
+    width: 100%;
+    background-position:top;
+}
+.ap-eva{
+    background: url(/images/Phillips-Neon-Genesis-Evangelion.webp);
+    width: 100%;
+    background-position:top;
+}
+.ap-mavi-sy{
+    background:#0a85dc8e;
+}
+.ap-vic{
+    background: url(/images/vict.jpg);
+    width: 100%;
+    background-position: top;
+}
+.ap-acik-kirmizi-sy{
+    background: rgba(216, 60, 8, 0.619);
+}
+.ap-gri-sy{
+    background: rgba(0, 0, 0, 0.5);
+}
+.ap-spor{
+    background: url(/images/sport.jpg);
+    width: 100%;
+    background-position: center;
+}
+.ap-sinemalar{
+    background: url(/images/sinemalar.jpg);
+    width: 100%;
+    background-position: center;
+}
+
 .knicks-blue{
     color:#006ab6cf;
 }
