@@ -113,6 +113,11 @@
     width: 100%;
     background-position: center;
 }
+.ap-chess{
+    background: url(/images/chess-1226126_1920.jpg);
+    width: 100%;
+    background-position: center;
+}
 .ap-sinemalar{
     background: url(/images/sinemalar.jpg);
     width: 100%;

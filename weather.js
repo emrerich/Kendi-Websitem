@@ -1,28 +1,42 @@
-function getUserList(){
-    const span = document.getElementById("weather");
-    fetch("https://api.ambeedata.com/weather/latest/by-lat-lng?lat=40.730610&lng=-73.935242", {
-	"method": "GET",
-	"headers": {
-		"x-api-key": "b191bc9c2f437847e5cbfbe37cd928139400fd5cc46dc307621b9df6f82eba8a",
-		"Content-type": "application/json"
+// api url
+const api_url =
+	"https://api.chess.com/pub/puzzle";
+
+// Defining async function
+async function getapi(url) {
+	
+	// Storing response
+	const response = await fetch(url);
+	
+	// Storing data in form of JSON
+	var data = await response.json();
+	console.log(data);
+	if (response) {
+		hideloader();
 	}
-})
-    .then(response=>response.json())
-    .then(response=>{
-       console.log(response);
-     
-            span.innerHTML+=`
-            <p>${response[0].summary}</p>
-
-          `
-        
-        
-               
-
-        
-    })
-
+	show(data);
 }
-getUserList();
+// Calling that async function
+getapi(api_url);
 
+// Function to hide the loader
+function hideloader() {
+	document.getElementById('loading').style.display = 'none';
+}
+// Function to define innerHTML for HTML table
+function show(data) {
+	let tab =
+		``;
+	
+	// Loop to access all rows
 
+		tab += `
+        <h1> Chess.com Günün Bulmacası </h1>
+        <a href="${data.url}"><img src=${data.image} width="250"></img></a>
+        <p>Çözmek için resme tıklayınız</p>
+        `
+;
+	
+	// Setting innerHTML as tab variable
+	document.getElementById("employees").innerHTML = tab;
+}
