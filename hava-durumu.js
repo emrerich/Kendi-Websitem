@@ -1,6 +1,6 @@
 // api url
 const api_url =
-	"https://api.chess.com/pub/puzzle";
+	"https://api.openweathermap.org/data/2.5/weather?lat=40.7128&lon=-74.0060&appid=fdb2bb68660104da21a65101341748d0&units=metric&lang=tr";
 
 // Defining async function
 async function getapi(url) {
@@ -11,18 +11,11 @@ async function getapi(url) {
 	// Storing data in form of JSON
 	var data = await response.json();
 	console.log(data);
-	if (response) {
-		hideloader();
-	}
 	show(data);
 }
 // Calling that async function
 getapi(api_url);
 
-// Function to hide the loader
-function hideloader() {
-	document.getElementById('loading').style.display = 'none';
-}
 // Function to define innerHTML for HTML table
 function show(data) {
 	let tab =
@@ -31,12 +24,13 @@ function show(data) {
 	// Loop to access all rows
 
 		tab += `
-        <h1> Chess.com Günün Bulmacası </h1>
-        <a href="${data.url}"><img src=${data.image} width="250"></img></a>
-        <p>Çözmek için resme tıklayınız</p>
+        <div class="container text-center ap-dark-purple text-white">
+        <h1>Anlık Sıcaklık Değeri</h1>
+        <p class="text-center baslangic-big bold yr-liberty py-2">${data.main.temp}°C</p>
+        </div>
         `
 ;
 	
 	// Setting innerHTML as tab variable
-	document.getElementById("employees").innerHTML = tab;
+	document.getElementById("weather").innerHTML = tab;
 }

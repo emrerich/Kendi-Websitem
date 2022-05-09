@@ -54,12 +54,20 @@
 .border-3{
     border: 3px,solid, black;
 }
+.ap-sicak{
+    background-image: url(/images/celcius.jpg);
+    width: 100%;
+    background-position: top;
+}
 .ap-siyah{
     background: rgba(0, 0, 0, 0.951);
 }
 .yr-dark-purple
 {
     color: #690669;
+}
+.yr-liberty{
+    color:#a1c7b6 
 }
 .ap-knicks-orange
 {

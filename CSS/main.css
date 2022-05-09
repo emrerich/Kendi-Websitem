@@ -7,7 +7,7 @@ a{
     text-decoration: none;
     color:#fff;
 }
-a,div,p h1,h2{ 
+a,div,p h1,h2,h3,h4,h5,h6{ 
     font-family: 'Raleway', sans-serif;
 
 }
@@ -434,4 +434,13 @@ img.hover-shadow {
   float:left;
   padding:0 10px 10px 0;
 
+}
+.paragraf-ny{
+  letter-spacing: 0.05rem;
+  font-size: 1.10rem;
+  font-style:italic;
+}
+.left-about p .sag-alt-resim{
+  float: right;
+  padding: 0 10px 10px 0;
 }
