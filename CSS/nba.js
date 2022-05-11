@@ -3,7 +3,7 @@ function getUserList(){
     fetch("https://api.sportsdata.io/v3/nba/scores/json/Players/NY?key=a1dd423d477a4cdfa424c9cd57f85a7c")
     .then(response=>response.json())
     .then(data=>{
-        // console.log(data);
+        console.log(data);
            for(player of data)
            {
                console.log(player);

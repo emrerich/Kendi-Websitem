@@ -286,7 +286,6 @@ color: #690669;
   font-weight: 500;
 }
 .ny-baslik{
-  padding-bottom: 2rem;
   font-size: 6rem;
   -webkit-text-stroke: 2px black;
 }
@@ -443,4 +442,8 @@ img.hover-shadow {
 .left-about p .sag-alt-resim{
   float: right;
   padding: 0 10px 10px 0;
+}
+#footer a:hover{
+  color: #AA96DA;
+  text-decoration: none;
 }
