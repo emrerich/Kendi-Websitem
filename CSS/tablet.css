@@ -5,7 +5,7 @@
 }
 .about-container{
     grid-template-columns: repeat(1, 1fr);
-    max-width: 90%;
+    max-width: 100%;
 }
 .right-about{
     grid-template-columns: repeat(1, 1fr);
@@ -28,4 +28,16 @@
   .sutun {
     flex: 100%;
     max-width: 100%;    margin: 0    ;}
+#hakkimda .ana-baslik h2{
+        margin-top: 2rem;
+        position: relative;
+        text-transform: uppercase;
+        font-size: 3rem;
+        font-weight: 700;
+        }
+        .about-container .left-about {
+            padding-right: 0rem;
+          }
+
+        
       

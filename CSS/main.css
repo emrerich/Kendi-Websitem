@@ -447,3 +447,6 @@ img.hover-shadow {
   color: #AA96DA;
   text-decoration: none;
 }
+#cv .about-item{
+  margin-bottom: 1rem;
+}
