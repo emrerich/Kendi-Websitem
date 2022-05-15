@@ -193,7 +193,7 @@ color: #690669;
 }
 .ap-img-basket
 {
-  background: url(/images/curry.jpg);
+  background: url(../images/curry.jpg);
   margin-bottom: 1rem;
 }
 .special-card {
@@ -208,17 +208,17 @@ color: #690669;
 
 }
 .ap-img-slide{
-  background: url(/images/background-black-white-blurred-background-closeup.jpg);
+  background: url(../images/background-black-white-blurred-background-closeup.jpg);
   background-size: 100%;
   background-position: center;
 }
 .ap-img-lighthouse{
-  background: url(/images/lighthouse.jpg);
+  background: url(../images/lighthouse.jpg);
   background-size: 100%;
   background-position: center;
 }
 .ap-img-msg{
-  background: url(/images/New-York-Knicks-MSG-1200x650.jpg);
+  background: url(../images/New-York-Knicks-MSG-1200x650.jpg);
   background-position:center;
 }
 .ap-img-msg h1{
@@ -443,6 +443,18 @@ img.hover-shadow {
   float: right;
   padding: 0 10px 10px 0;
 }
+footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+
+
+ }
+ footer a:hover{
+  color: #AA96DA;
+  text-decoration: none;
+ }
 #footer a:hover{
   color: #AA96DA;
   text-decoration: none;
@@ -450,3 +462,30 @@ img.hover-shadow {
 #cv .about-item{
   margin-bottom: 1rem;
 }
+.login-pg button {
+  border-radius: 4px ;
+  color: #690669 ;
+  border-color: #690669 ;
+   margin: auto;
+}
+.login-pg :hover{
+      background-color: #690669 !important;
+      color: white !important;
+}
+.iletisim-formu .btn{
+  border-radius: 4px ;
+  color: #690669 ;
+  border-color: #690669 ;
+ margin: auto;
+}
+.iletisim-formu .btn:hover{
+  background-color: #690669 !important;
+  color: white !important;
+}
+.iletisim-formu a:hover{
+  color: #AA96DA;
+  text-decoration: none;
+ }
+ .iletisim-formu textarea, input:hover{
+   border-color: #690669;
+ }

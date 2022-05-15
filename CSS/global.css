@@ -55,7 +55,7 @@
     border: 3px,solid, black;
 }
 .ap-sicak{
-    background-image: url(/images/celcius.jpg);
+    background-image: url(../images/celcius.jpg);
     width: 100%;
     background-position: top;
 }
@@ -80,7 +80,7 @@
     background: #3e5a2c;
 }
 .ap-img-ny{
-    background-image: url(/images/sss-3.jpg);
+    background-image: url(../images/sss-3.jpg);
     width: 100%;
     background-position: center;
     margin: 0;
@@ -89,17 +89,17 @@
     background: none;
 }
 .ap-img-cinema{
-    background: url(/images/auditorium-audience-red-darkness-theatre-stage-1394394-pxhere.com.jpg);
+    background: url(../images/auditorium-audience-red-darkness-theatre-stage-1394394-pxhere.com.jpg);
     width: 100%;
     background-position: center;
 }
 .ap-lala{
-    background: url(/images/1232005.jpg);
+    background: url(../images/1232005.jpg);
     width: 100%;
     background-position:top;
 }
 .ap-eva{
-    background: url(/images/Phillips-Neon-Genesis-Evangelion.webp);
+    background: url(../images/Phillips-Neon-Genesis-Evangelion.webp);
     width: 100%;
     background-position:top;
 }
@@ -107,7 +107,7 @@
     background:#0a85dc8e;
 }
 .ap-vic{
-    background: url(/images/vict.jpg);
+    background: url(../images/vict.jpg);
     width: 100%;
     background-position: top;
 }
@@ -118,17 +118,17 @@
     background: rgba(0, 0, 0, 0.5);
 }
 .ap-spor{
-    background: url(/images/sport.jpg);
+    background: url(../images/sport.jpg);
     width: 100%;
     background-position: center;
 }
 .ap-chess{
-    background: url(/images/chess-1226126_1920.jpg);
+    background: url(../images/chess-1226126_1920.jpg);
     width: 100%;
     background-position: center;
 }
 .ap-sinemalar{
-    background: url(/images/sinemalar.jpg);
+    background: url(../images/sinemalar.jpg);
     width: 100%;
     background-position: center;
 }
